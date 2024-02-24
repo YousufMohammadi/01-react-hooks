@@ -1,0 +1,14 @@
+.title-container{
+    width: 50%;
+    height: 100%;
+    background: #222831;
+    overflow: hidden;
+}
+.title{
+    color: #EEE;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

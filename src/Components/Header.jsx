@@ -17,7 +17,7 @@ export function Header() {
           Home
         </a>
         <div class="dropdown">
-          <button class="dropbtn">Hooks</button>
+          <button class="dropbtn">Hooks <i class="fa-solid fa-chevron-down"></i></button>
           <div class="dropdown-content">
             <a href="#">useState</a>
             <a href="#">useEffect</a>
