@@ -1,58 +1,37 @@
-import React from "react";
-
-function Header() {
-  return (
-    <div class="w-full h-20 bg-white-500 flex flex-row items-center bg-red-400">
-      <a
-        href="/home"
-        class="font-semibold text-white hover:text-sky-400  text-center w-full"
-      >
-        useState
-      </a>
-      <a
-        href="/home"
-        class="font-semibold text-white hover:text-sky-400 text-center w-full"
-      >
-        useEffect
-      </a>
-      <a
-        href="/home"
-        class="font-semibold text-white hover:text-sky-400 text-center w-full"
-      >
-        useContext
-      </a>
-      <a
-        href="/home"
-        class="font-semibold text-white hover:text-sky-400 text-center w-full"
-      >
-        useRef
-      </a>
-      <a
-        href="/home"
-        class="font-semibold text-white hover:text-sky-400 text-center w-full"
-      >
-        useReducer
-      </a>
-      <a
-        href="/home"
-        class="font-semibold text-white hover:text-sky-400 text-center w-full"
-      >
-        useLayoutEffect
-      </a>
-      <a
-        href="/home"
-        class="font-semibold text-white hover:text-sky-400 text-center w-full"
-      >
-        useCallBack
-      </a>
-      <a
-        href="/home"
-        class="font-semibold text-white hover:text-sky-400 text-center w-full"
-      >
-        customHook
-      </a>
-    </div>
-  );
+import { Link } from "react-router-dom";
+import "../Styles/Components/Header.css"
+export function Header() {
+  function handleMenu() {
+    var x = document.getElementById("links");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }
+    return (
+      <div className="header-container">
+        <div className="brand">Yousuf Mohammadi</div>
+        <div className="header-links" id="links">
+          <a className="link" href={"#home"}>
+            Home
+          </a>
+          <a className="link" href={"#about"}>
+            About
+          </a>
+          <a className="link" href={"#skills"}>
+            Skills
+          </a>
+          <a className="link" href={"#projects"}>
+            Projects
+          </a>
+          <a className="link" href={"#contact"}>
+            Contact
+          </a>
+        </div>
+        <Link onClick={handleMenu} id="menu">
+          <i class="fa-solid fa-bars"></i>
+        </Link>
+      </div>
+    );
 }
-
-export default Header;

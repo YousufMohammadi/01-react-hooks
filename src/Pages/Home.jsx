@@ -1,17 +1,19 @@
-import React from "react";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import { About } from "../Components/About";
+import { Abstract } from "../Components/Abstract";
+import { Contact } from "../Components/Contact";
+import { Footer } from "../Components/Footer";
+import { Header } from "../Components/Header";
+import { Projects } from "../Components/Projects";
+import { Skills } from "../Components/Skills";
 
-function Home() {
-  return (
-    <div className="home-container">
-      <Header />
-      <div>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </div>
-      <Footer />
+export function Home() {
+    return <div id="home">
+        <Header />
+        <Abstract />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
     </div>
-  );
 }
-
-export default Home;
