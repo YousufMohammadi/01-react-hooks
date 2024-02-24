@@ -9,29 +9,29 @@ export function Header() {
       x.style.display = "flex";
     }
   }
-    return (
-      <div className="header-container">
-        <div className="brand">Yousuf Mohammadi</div>
-        <div className="header-links" id="links">
-          <a className="link" href={"#home"}>
-            Home
-          </a>
-          <a className="link" href={"#about"}>
-            About
-          </a>
-          <a className="link" href={"#skills"}>
-            Skills
-          </a>
-          <a className="link" href={"#projects"}>
-            Projects
-          </a>
-          <a className="link" href={"#contact"}>
-            Contact
-          </a>
+  return (
+    <div className="header-container">
+      <div className="brand">React Hooks</div>
+      <div className="header-links" id="links">
+        <a className="link" href={"#home"}>
+          Home
+        </a>
+        <div class="dropdown">
+          <button class="dropbtn">Hooks</button>
+          <div class="dropdown-content">
+            <a href="#">useState</a>
+            <a href="#">useEffect</a>
+            <a href="#">useContext</a>
+            <a href="#">useReducer</a>
+            <a href="#">useCallBack</a>
+            <a href="#">useMemo</a>
+            <a href="#">useMemo</a>
+          </div>
         </div>
-        <Link onClick={handleMenu} id="menu">
-          <i class="fa-solid fa-bars"></i>
-        </Link>
       </div>
-    );
+      <Link onClick={handleMenu} id="menu">
+        <i class="fa-solid fa-bars"></i>
+      </Link>
+    </div>
+  );
 }
