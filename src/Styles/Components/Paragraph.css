@@ -1,0 +1,16 @@
+.paragraph-container{
+    width: 50%;
+    height: 100%;
+    background: #222831;
+    overflow: hidden;
+}
+.paragraph{
+    color: rgba(238, 238, 238, 0.75);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:50%;
+    text-align: justify;
+}
