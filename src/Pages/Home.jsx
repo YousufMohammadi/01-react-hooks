@@ -2,6 +2,7 @@ import CodeSpace from "../Components/CodeSpace";
 import { Footer } from "../Components/Footer";
 import { Header } from "../Components/Header";
 import Heading from "../Components/Heading";
+import Image from "../Components/Image";
 import Paragraph from "../Components/Paragraph";
 import Tag from "../Components/Tag";
 import Title from "../Components/Title";
@@ -16,6 +17,7 @@ export function Home(props) {
             <Paragraph pragraph="thiss is paragraph"/>
             <CodeSpace language="javascript" code={codeSnippet} />
             <Tag link="www.google.com" title="this is tag"/>
+            <Image src="logo192.png" imgWidth="50%" imgHeight="50%"/>
         </div>
         <Footer />
     </div>
