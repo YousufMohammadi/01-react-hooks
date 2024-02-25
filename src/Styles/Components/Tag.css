@@ -1,0 +1,13 @@
+.tag{
+    color: #EEE;
+    backdrop-filter: blur(2px);
+    background: rgba(57,62,70,.5);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
