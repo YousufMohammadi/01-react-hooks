@@ -25,6 +25,13 @@ export function Home(props) {
             <Paragraph pragraph="Let’s create a simple React functional component that uses the useState hook to manage a piece of state (a counter, in this case):"/>
              */}
             {/* <Tag link="www.google.com" title="this is tag"/> */}
+            <Heading heading="Commonly Used React Hooks:" />
+            <Paragraph pragraph=" 1.useState"/>
+            <Paragraph pragraph=" 2.useEffect"/>
+            <Paragraph pragraph=" 3.useContext"/>
+            <Paragraph pragraph=" 4.useReducer"/>
+            <Paragraph pragraph=" 5.useCallBack"/>
+            <Paragraph pragraph=" 6.useMemo"/>
             <Heading heading="Advantages of React Hooks:" />
             <Paragraph pragraph=" 1.Simplified Logic:"/>
             <Paragraph pragraph="Hooks enable developers to write more readable and concise code, reducing the complexity traditionally associated with class components"/>
