@@ -22,11 +22,10 @@ export function Header() {
           <div class="dropdown-content">
             <a  onClick={()=>navigate("/useState")}>useState</a>
             <a  onClick={()=>navigate("/useEffect")}>useEffect</a>
-            <a  onClick={()=>navigate("/useState")}>useContext</a>
-            <a  onClick={()=>navigate("/useState")}>useReducer</a>
-            <a  onClick={()=>navigate("/useState")}>useCallBack</a>
-            <a  onClick={()=>navigate("/useState")}>useMemo</a>
-            <a  onClick={()=>navigate("/useState")}>useMemo</a>
+            <a  onClick={()=>navigate("/useContext")}>useContext</a>
+            <a  onClick={()=>navigate("/useReducer")}>useReducer</a>
+            <a  onClick={()=>navigate("/useCallBack")}>useCallBack</a>
+            <a  onClick={()=>navigate("/useMemo")}>useMemo</a>
           </div>
         </div>
       </div>
