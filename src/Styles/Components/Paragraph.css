@@ -14,3 +14,27 @@
     width:100%;
     text-align: justify;
 }
+@media only screen and (max-width:768px) {
+    .paragraph-container{
+        width: 60%;
+    }
+    .paragraph{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .paragraph-container{
+        width: 70%;
+    }
+    .paragraph{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .paragraph-container{
+        width: 80%;
+    }
+    .paragraph{
+        font-size: 14px;
+    }
+}

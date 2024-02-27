@@ -14,7 +14,6 @@ export function UseMemo(props) {
 
 // Step 1: Create a simple factorial calculation function
 const calculateFactorial = (n) => {
-  console.log('Calculating factorial(${n})');
   if (n <= 1) {
     return 1;
   } else {
