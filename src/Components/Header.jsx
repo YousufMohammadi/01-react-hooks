@@ -20,13 +20,13 @@ export function Header() {
         <div class="dropdown">
           <button class="dropbtn">Hooks <i class="fa-solid fa-chevron-down"></i></button>
           <div class="dropdown-content">
-            <a onClick={()=>navigate("/useState")}>useState</a>
-            <a>useEffect</a>
-            <a>useContext</a>
-            <a>useReducer</a>
-            <a>useCallBack</a>
-            <a>useMemo</a>
-            <a>useMemo</a>
+            <a  onClick={()=>navigate("/useState")}>useState</a>
+            <a  onClick={()=>navigate("/useEffect")}>useEffect</a>
+            <a  onClick={()=>navigate("/useState")}>useContext</a>
+            <a  onClick={()=>navigate("/useState")}>useReducer</a>
+            <a  onClick={()=>navigate("/useState")}>useCallBack</a>
+            <a  onClick={()=>navigate("/useState")}>useMemo</a>
+            <a  onClick={()=>navigate("/useState")}>useMemo</a>
           </div>
         </div>
       </div>
